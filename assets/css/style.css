@@ -47,3 +47,41 @@ h2 {
 .active {
     border-bottom: 1px dashed blue;
 }
+
+/* main image */ 
+
+#image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/gallery/pexels-allan-mas-5383741\ \(1\).jpg') no-repeat center center;
+    margin: 30px 0 0;
+    background-size: cover;
+}
+
+#cover-text {
+    font-size: 130%;
+        font-family:'Courier New', Courier, monospace sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    
+        width: 90%;
+        height: 150px;
+        margin-right: 30px;
+    
+        padding-top: 20px;
+        padding-left: 10px;
+    
+        background-color: rgba(19, 36, 185, 0.6);
+        bottom: 30px;
+        right: 50px;
+        color: white;
+        position: absolute;
+
+}
