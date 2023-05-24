@@ -33,7 +33,7 @@ h2 {
 }
 
 #title, #navigation li {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #navigation a {
@@ -61,7 +61,7 @@ h2 {
     height: 600px;
     width: 100%;
     background: url('../images/gallery/pexels-allan-mas-5383741\ \(1\).jpg') no-repeat center center;
-    margin: 30px 0 0;
+    margin: 20px 0 0;
     background-size: cover;
 }
 
@@ -84,4 +84,37 @@ h2 {
         color: white;
         position: absolute;
 
+}
+
+
+#offer {
+    height: 300px;
+    width: 100%;
+    background: url('../images/gallery/pexels-photo-6674479.jpeg') no-repeat center center;
+    background-size: scroll;
+}
+#left-offer {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    padding-top: 20px;
+    background-color: rgba(19, 36, 185, 0.6);
+    text-align: center;
+}
+
+#right-offer {
+    float: right;
+    width: 20%;
+    margin-right: 10px;
+    padding-top: 20px;
+    background-color: rgba(238, 28, 20, 0.6);
+    text-align: center;
+}
+#divider {
+    text-align: center;
+    font-size: 200%;
+}
+
+#right-offer ul, #left-offer ul {
+    list-style-type: none;
 }
